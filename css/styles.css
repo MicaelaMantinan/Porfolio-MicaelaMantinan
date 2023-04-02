@@ -1,5 +1,24 @@
+
 @charset "UTF-8";
 /* Versión Mobile 320px */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: white;
+  background-image: url(../img/Backgroundhome.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 #grid_container {
   display: grid;
   grid-template-areas: "header header header" "article article article" "section section section" "footer footer footer";
@@ -33,7 +52,6 @@ footer {
   height: 10rem;
 }
 
-/* Versión Mobile 320px */
 .navbar {
   background-color: white;
   box-shadow: 2px 2px 4px rgba(1, 52, 113, 0.15);
@@ -85,6 +103,14 @@ footer {
   font-weight: 500;
 }
 
+.button_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
 .button_menu {
   color: white;
   font-family: "Raleway", sans-serif;
@@ -95,15 +121,6 @@ footer {
   width: 30vw;
 }
 
-.button_contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3%;
-  margin-bottom: 3%;
-}
-
-/* Versión Mobile 320px */
 .banner {
   height: 80vh;
   display: flex;
@@ -112,12 +129,6 @@ footer {
   background-image: url(../img/portadahome.jpeg);
   background-size: cover;
   background-position: center;
-}
-
-.title_Quicksand_dark_rosa {
-  color: #E91E63;
-  font-weight: 400;
-  text-shadow: 0.1rem 0.2rem 0.2rem rgba(255, 255, 255, 0.15);
 }
 
 .content_portada {
@@ -148,6 +159,12 @@ h1 {
   font-weight: 100;
 }
 
+.title_Quicksand_dark_rosa {
+  color: #E91E63;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.2rem 0.2rem rgba(255, 255, 255, 0.15);
+}
+
 #download_portada {
   border: none;
   width: 42%;
@@ -172,14 +189,8 @@ h1 {
   display: none;
 }
 
-/* Versión Mobile 320px */
-body {
-  background-color: white;
-  background-image: url(../img/Backgroundhome.png);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.b-black {
+  border: 4px solid black;
 }
 
 .article-home {
@@ -331,7 +342,6 @@ h4 {
   margin-left: 38%;
 }
 
-/* Versión Mobile 320px */
 .avatar_footer {
   display: none;
 }
@@ -357,15 +367,6 @@ h4 {
   gap: 1rem;
   padding-top: 2%;
   padding-left: 10%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
 }
 
 /* Versión Mobile 320px a 430px */
